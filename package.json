@@ -1,0 +1,31 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build-var": "webpack --config webpack-config-var.js",
+    "build-assgin": "webpack --config webpack-config-assign.js",
+    "build-this": "webpack --config webpack-config-this.js",
+    "build-this-cover": "webpack --config webpack-config-this-cover.js",
+    "build-window": "webpack --config webpack-config-window.js",
+    "build-window-cover": "webpack --config webpack-config-window-cover.js",
+    "build-global": "webpack --config webpack-config-global.js",
+    "build-global-cover": "webpack --config webpack-config-global-cover.js",
+    "build-commonjs": "webpack --config webpack-config-commonjs.js",
+    "build-commonjs-cover": "webpack --config webpack-config-commonjs-cover.js",
+    "build-commonjs2": "webpack --config webpack-config-commonjs2.js",
+    "build-commonjs2-cover": "webpack --config webpack-config-commonjs2-cover.js",
+    "build-amd": "webpack --config webpack-config-amd.js",
+    "build-amd-cover": "webpack --config webpack-config-amd-cover.js",
+    "build-umd": "webpack --config webpack-config-umd.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "dependencies": {},
+  "description": ""
+}

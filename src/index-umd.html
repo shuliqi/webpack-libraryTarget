@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>umd 使用 requireJs 加载器加载</title>
+     <!-- 引入require.js并指定js主文件的入口 -->
+     <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
+     <script>
+      require(['../dist/webpack-umd.js'], function(demo) {
+        console.log(demo);
+        demo.getName()
+      })
+    </script>
+  </head>
+  <body>
+    umd 配置:
+    <br>
+    使用 requireJs 加载器加载
+  </body>
+</html>

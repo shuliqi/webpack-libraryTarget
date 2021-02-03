@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AMD 模块的引用</title>
+     <!-- 引入require.js并指定js主文件的入口 -->
+     <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
+     <script>
+      require(['../dist/webpack-amd-cover.js'], function(demo) {
+        console.log(demo,'加载完成了')
+      })
+    </script>
+  </head>
+  <body>
+    amd 配置:
+    <br>
+    没有定义了 output.library 的值
+  </body>
+</html>
